@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Habitacion">
+  <ClassDiagramComponents>
+    <Class name="Habitacion" package="colecciones" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="numHabitacion" type="Integer" visibility="private"/>
+        <Field name="fechaOcupacion" type="Date" visibility="private"/>
+        <Field name="ocupante" type="Persona" visibility="private"/>
+        <Field name="reserva" type="Reserva" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="Integer" name="numHabitacion"/>
+          <Argument type="Date" name="fechaOcupacion"/>
+          <Argument type="Persona" name="ocupante"/>
+          <Argument type="Reserva" name="reserva"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNumHabitacion" returnType="Integer" visibility="public"/>
+        <Method name="setNumHabitacion" returnType="void" visibility="public">
+          <Argument type="Integer" name="numHabitacion"/>
+        </Method>
+        <Method name="getFechaOcupacion" returnType="Date" visibility="public"/>
+        <Method name="setFechaOcupacion" returnType="void" visibility="public">
+          <Argument type="Date" name="fechaOcupacion"/>
+        </Method>
+        <Method name="getOcupante" returnType="Persona" visibility="public"/>
+        <Method name="setHabitante" returnType="void" visibility="public">
+          <Argument type="Persona" name="ocupante"/>
+        </Method>
+        <Method name="getReserva" returnType="Reserva" visibility="public"/>
+        <Method name="setReserva" returnType="void" visibility="public">
+          <Argument type="Reserva" name="reserva"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
